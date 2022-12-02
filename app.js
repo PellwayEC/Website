@@ -7,6 +7,7 @@ const RESULT_DRAW = 'DRAW';
 const PLAYER_WINS = 'PLAYER_WINS';
 const COMPUTER_WINS = 'COMPUTER_WINS';
 const DEFAULT_USER_CHOICE = ROCK;
+const AGAIN = 'Play another game';
 
 let gameIsRunning = false;
 
@@ -64,5 +65,5 @@ startGameBtn.addEventListener('click',() => {
     }
     alert(message);
     gameIsRunning = false;
-    document.getElementById('start-game-btn').innerHTML = 'Play again';
+    document.getElementById('start-game-btn').innerHTML = AGAIN;
 });
