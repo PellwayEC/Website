@@ -64,5 +64,5 @@ startGameBtn.addEventListener('click',() => {
     }
     alert(message);
     gameIsRunning = false;
-    document.getElementById('start-game-btn').innerHTML = "Play Another Game";
+    document.getElementById('start-game-btn').innerHTML = "Play Again?";
 });
